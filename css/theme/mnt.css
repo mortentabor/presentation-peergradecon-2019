@@ -1,0 +1,674 @@
+/**
+ * White theme for reveal.js. This is the opposite of the 'black' theme.
+ *
+ * By Hakim El Hattab, http://hakim.se
+ */
+@import url(../../lib/font/source-sans-pro/source-sans-pro.css);
+section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {
+  color: #fff; }
+
+/*********************************************
+ * GLOBAL STYLES
+ *********************************************/
+body {
+  background: #fff;
+  background-color: #fff; }
+
+.reveal {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
+  font-size: inherit;
+  font-weight: normal;
+  color: #222; }
+
+::selection {
+  color: #fff;
+  background: #df4b50;
+  text-shadow: none; }
+
+::-moz-selection {
+  color: #fff;
+  background: #df4b50;
+  text-shadow: none; }
+
+.reveal .slides section,
+.reveal .slides section > section {
+  line-height: 1.3;
+  font-weight: inherit; }
+
+/*********************************************
+ * HEADERS
+ *********************************************/
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  margin: 0 0 20px 0;
+  color: #000;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-transform: none;
+  text-shadow: none;
+  word-wrap: break-word; }
+
+.reveal h1 {
+  font-size: 2em; }
+
+.reveal h2 {
+  font-size: 1.4em; }
+
+.reveal h3 {
+  font-size: 1.2em; }
+
+.reveal h4 {
+  font-size: 1em; }
+
+.reveal h1 {
+  text-shadow: none; }
+
+/*********************************************
+ * OTHER
+ *********************************************/
+.reveal p {
+  margin: 20px 0;
+  line-height: 1.3; }
+
+/* Ensure certain elements are never larger than the slide itself */
+.reveal img,
+.reveal video,
+.reveal iframe {
+  max-width: 95%;
+  max-height: 95%; }
+
+.reveal strong,
+.reveal b {
+  font-weight: bold; }
+
+.reveal em {
+  font-style: italic; }
+
+.reveal ol,
+.reveal dl,
+.reveal ul {
+  display: inline-block;
+  text-align: left;
+  margin: 0 0 0 1em; }
+
+.reveal ol {
+  list-style-type: decimal; }
+
+.reveal ul {
+  list-style-type: disc; }
+
+.reveal ul ul {
+  list-style-type: square; }
+
+.reveal ul ul ul {
+  list-style-type: circle; }
+
+.reveal ul ul,
+.reveal ul ol,
+.reveal ol ol,
+.reveal ol ul {
+  display: block;
+  margin-left: 40px; }
+
+.reveal dt {
+  font-weight: bold; }
+
+.reveal dd {
+  margin-left: 40px; }
+
+.reveal blockquote {
+  display: block;
+  position: relative;
+  width: 70%;
+  margin: 20px auto;
+  padding: 5px;
+  font-style: italic;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2); }
+
+.reveal blockquote p:first-child,
+.reveal blockquote p:last-child {
+  display: inline-block; }
+
+.reveal q {
+  font-style: italic; }
+
+.reveal pre {
+  display: block;
+  position: relative;
+  width: 90%;
+  margin: 20px auto;
+  text-align: left;
+  font-size: 0.55em;
+  font-family: monospace;
+  line-height: 1.2em;
+  word-wrap: break-word;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3); }
+
+.reveal code {
+  font-family: monospace;
+  text-transform: none; }
+
+.reveal pre code {
+  display: block;
+  padding: 5px;
+  overflow: auto;
+  max-height: 400px;
+  word-wrap: normal; }
+
+.reveal table {
+  margin: auto;
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.reveal table th {
+  font-weight: bold; }
+
+.reveal table th,
+.reveal table td {
+  text-align: left;
+  padding: 0.2em 0.5em 0.2em 0.5em;
+  border-bottom: 1px solid; }
+
+.reveal table th[align="center"],
+.reveal table td[align="center"] {
+  text-align: center; }
+
+.reveal table th[align="right"],
+.reveal table td[align="right"] {
+  text-align: right; }
+
+.reveal table tbody tr:last-child th,
+.reveal table tbody tr:last-child td {
+  border-bottom: none; }
+
+.reveal sup {
+  vertical-align: super;
+  font-size: smaller; }
+
+.reveal sub {
+  vertical-align: sub;
+  font-size: smaller; }
+
+.reveal small {
+  display: inline-block;
+  font-size: 0.6em;
+  line-height: 1.2em;
+  vertical-align: top; }
+
+.reveal small * {
+  vertical-align: top; }
+
+/*********************************************
+ * LINKS
+ *********************************************/
+.reveal a {
+  color: #901a1e;
+  text-decoration: none;
+  -webkit-transition: color .15s ease;
+  -moz-transition: color .15s ease;
+  transition: color .15s ease; }
+
+.reveal a:hover {
+  color: #d1262c;
+  text-shadow: none;
+  border: none; }
+
+.reveal .roll span:after {
+  color: #fff;
+  background: #4f0e11; }
+
+/*********************************************
+ * IMAGES
+ *********************************************/
+.reveal section img {
+  margin: 15px 0px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 4px solid #222;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
+
+.reveal section img.plain {
+  border: 0;
+  box-shadow: none; }
+
+.reveal a img {
+  -webkit-transition: all .15s linear;
+  -moz-transition: all .15s linear;
+  transition: all .15s linear; }
+
+.reveal a:hover img {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: #901a1e;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
+
+/*********************************************
+ * NAVIGATION CONTROLS
+ *********************************************/
+.reveal .controls {
+  color: #901a1e; }
+
+/*********************************************
+ * PROGRESS BAR
+ *********************************************/
+.reveal .progress {
+  background: rgba(0, 0, 0, 0.2);
+  color: #901a1e; }
+
+.reveal .progress span {
+  -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
+
+/*********************************************
+ * PRINT BACKGROUND
+ *********************************************/
+@media print {
+  .backgrounds {
+    background-color: #fff; } }
+
+html {
+  font-size: 3.75vmin; }
+
+.grid-wrapper {
+  display: grid; }
+
+.reveal .slides {
+  text-align: left; }
+
+.reveal .slides section {
+  box-sizing: border-box;
+  padding: 0; }
+
+.reveal .slides section {
+  height: 100vh;
+  margin: 0;
+  width: 100vw; }
+  .reveal .slides section .grid-wrapper {
+    box-sizing: border-box;
+    grid-column-gap: 12vmin;
+    grid-row-gap: 6vmin;
+    grid-template-areas: "header" "content";
+    grid-template-rows: 1fr 1fr;
+    height: 100%;
+    padding: 12vmin; }
+  .reveal .slides section .gfx {
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    display: inline-block; }
+
+.right {
+  text-align: right; }
+
+.left {
+  text-align: left; }
+
+.center {
+  text-align: center; }
+
+/*.reveal .slides span.highlight {
+    display: inline;
+    background: $highlightColor;
+    color: $mainColor; 
+    padding: $highlightPadding;
+}*/
+.reveal .slides span.highlight {
+  border-radius: 1em 0 1em 0;
+  text-shadow: 1px 1px 1px #fff;
+  background-image: linear-gradient(-100deg, rgba(255, 250, 150, 0.15), rgba(255, 250, 150, 0.7) 100%, rgba(255, 250, 150, 0.25)); }
+
+.reveal .slides h2 {
+  text-align: center; }
+
+.reveal .slides .threecolstworows .grid-wrapper {
+  grid-template-areas: "header header header" "topleft topcenter topright" "bottomleft bottomcenter bottomright";
+  grid-template-rows: 1fr 3fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr; }
+
+.reveal .slides .threecolstworows h2 {
+  grid-area: header; }
+
+.reveal .slides .threecolstworows .topleft {
+  grid-area: topleft;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center; }
+
+.reveal .slides .threecolstworows .topcenter {
+  grid-area: topcenter;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center; }
+
+.reveal .slides .threecolstworows .topright {
+  grid-area: topright;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center; }
+
+.reveal .slides .threecolstworows .bottomleft {
+  grid-area: bottomleft;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-size: 3.25vmin; }
+
+.reveal .slides .threecolstworows .bottomcenter {
+  grid-area: bottomcenter;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-size: 3.25vmin; }
+
+.reveal .slides .threecolstworows .bottomright {
+  grid-area: bottomright;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-size: 3.25vmin; }
+
+.reveal .slides .onecolonerow .grid-wrapper {
+  grid-template-areas: "header" "element1";
+  grid-template-rows: 1fr 4fr;
+  grid-template-columns: 1fr; }
+
+.reveal .slides .onecolonerow h2 {
+  grid-area: header; }
+
+.reveal .slides .onecolonerow .element1 {
+  grid-area: element1;
+  text-align: center;
+  font-size: 3.75vmin; }
+
+.reveal .slides .onecolthreerows .grid-wrapper {
+  grid-template-areas: "header" "element1" "element2" "element3";
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr; }
+
+.reveal .slides .onecolthreerows h2 {
+  grid-area: header; }
+
+.reveal .slides .onecolthreerows .element1, .reveal .slides .onecolthreerows .element2, .reveal .slides .onecolthreerows .element3 {
+  text-align: center;
+  font-size: 3.75vmin; }
+
+.reveal .slides .onecolthreerows .element1 {
+  grid-area: element1; }
+
+.reveal .slides .onecolthreerows .element2 {
+  grid-area: element2; }
+
+.reveal .slides .onecolthreerows .element3 {
+  grid-area: element3; }
+
+.reveal .slides .onecolfourrows .grid-wrapper {
+  grid-template-areas: "header" "element1" "element2" "element3" "element4";
+  grid-template-rows: 2fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr; }
+
+.reveal .slides .onecolfourrows h2 {
+  grid-area: header; }
+
+.reveal .slides .onecolfourrows .element1, .reveal .slides .onecolfourrows .element2, .reveal .slides .onecolfourrows .element3, .reveal .slides .onecolfourrows .element4 {
+  text-align: center;
+  font-size: 3.75vmin; }
+
+.reveal .slides .onecolfourrows .element1 {
+  grid-area: element1; }
+
+.reveal .slides .onecolfourrows .element2 {
+  grid-area: element2; }
+
+.reveal .slides .onecolfourrows .element3 {
+  grid-area: element3; }
+
+.reveal .slides .onecolfourrows .element4 {
+  grid-area: element4; }
+
+.reveal .slides section.titleslide .grid-wrapper {
+  grid-template-areas: "." "title" "subtitle";
+  grid-template-rows: 2fr 3fr 3fr;
+  grid-template-columns: 1fr; }
+
+.reveal .slides section.titleslide h1 {
+  grid-area: title;
+  justify-self: center;
+  align-self: center;
+  text-align: center; }
+
+.reveal .slides section.titleslide .subtitle {
+  font-size: 3.75vmin;
+  grid-area: subtitle;
+  justify-self: stretch;
+  align-self: stretch;
+  text-align: center;
+  line-height: 1.5em; }
+
+.reveal .slides section.econometrics2 .grid-wrapper {
+  grid-template-areas: "content" "gfx";
+  grid-template-rows: 1fr 2fr; }
+
+.reveal .slides section.econometrics2 .content {
+  grid-area: content; }
+
+.reveal .slides section.econometrics2 .gfx {
+  grid-area: gfx; }
+
+.reveal .slides section.econometrics2 .timeseries {
+  background-image: url("../../lib/media/timeseries.png");
+  background-position: right bottom; }
+
+.reveal .slides section.restructure .grid-wrapper {
+  grid-template-areas: "gfx description" "header header";
+  grid-template-rows: 4fr 1fr;
+  grid-template-columns: 1fr 2fr; }
+
+.reveal .slides section.restructure .description {
+  grid-area: description; }
+
+.reveal .slides section.restructure .gfx {
+  grid-area: gfx; }
+
+.reveal .slides section.restructure h2 {
+  grid-area: header;
+  justify-self: center;
+  align-self: end;
+  text-align: center; }
+
+.reveal .slides section.restructure .rideabike {
+  background-image: url("../../lib/media/rideabike.png");
+  background-position: left center;
+  padding-left: 4vmin; }
+
+.reveal .slides section.theloop .topleft {
+  background-image: url("../../lib/media/feedback_activity.png"); }
+
+.reveal .slides section.theloop .topcenter {
+  background-image: url("../../lib/media/feedback_feedback.png"); }
+
+.reveal .slides section.theloop .topright {
+  background-image: url("../../lib/media/feedback_revise.png"); }
+
+.reveal .slides section.prepare .topleft {
+  background-image: url("../../lib/media/video.png"); }
+
+.reveal .slides section.prepare .topcenter {
+  background-image: url("../../lib/media/reviewquiz.png"); }
+
+.reveal .slides section.prepare .topright {
+  background-image: url("../../lib/media/question.png"); }
+
+.reveal .slides section.prepare-video .grid-wrapper {
+  grid-template-areas: "video";
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr; }
+
+.reveal .slides section.prepare-video .video {
+  grid-area: video;
+  align-self: stretch;
+  justify-self: stretch;
+  text-align: center; }
+
+.reveal .slides section.lectures .topleft {
+  background-image: url("../../lib/media/socrative.png"); }
+
+.reveal .slides section.lectures .topcenter {
+  background-image: url("../../lib/media/miniexercise.png"); }
+
+.reveal .slides section.lectures .topright {
+  background-image: url("../../lib/media/lecture.png"); }
+
+.reveal .slides section.theoreticalexercises .topleft {
+  background-image: url("../../lib/media/videoex.png"); }
+
+.reveal .slides section.theoreticalexercises .topcenter {
+  background-image: url("../../lib/media/feedback.png"); }
+
+.reveal .slides section.theoreticalexercises .topright {
+  background-image: url("../../lib/media/solution.png"); }
+
+.reveal .slides section.empiricalexercises .topleft {
+  background-image: url("../../lib/media/screencast.png"); }
+
+.reveal .slides section.empiricalexercises .topcenter {
+  background-image: url("../../lib/media/tutorial.png"); }
+
+.reveal .slides section.empiricalexercises .topright {
+  background-image: url("../../lib/media/feedbackta.png"); }
+
+.reveal .slides section.empiricalexercise-video .grid-wrapper {
+  grid-template-areas: "video";
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr; }
+
+.reveal .slides section.empiricalexercise-video .video {
+  grid-area: video;
+  align-self: stretch;
+  justify-self: stretch;
+  text-align: center; }
+
+.reveal .slides section.assignments .grid-wrapper {
+  grid-template-areas: "header" "gfx" "headerbottom";
+  grid-template-rows: 1fr 4fr 1fr;
+  grid-template-columns: 1fr; }
+
+.reveal .slides section.assignments h2.headertop {
+  grid-area: header;
+  text-align: center; }
+
+.reveal .slides section.assignments .gfx {
+  grid-area: gfx;
+  background-image: url("../../lib/media/assignments.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.reveal .slides section.assignments h2.headerbottom {
+  grid-area: headerbottom;
+  text-align: center; }
+
+.reveal .slides section.assignments2 .grid-wrapper {
+  grid-template-areas: "header" "gfx" "headerbottom";
+  grid-template-rows: 1fr 4fr 1fr;
+  grid-template-columns: 1fr; }
+
+.reveal .slides section.assignments2 h2.headertop {
+  grid-area: header;
+  text-align: center; }
+
+.reveal .slides section.assignments2 .gfx {
+  grid-area: gfx;
+  background-image: url("../../lib/media/assignments2.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.reveal .slides section.assignments2 h2.headerbottom {
+  grid-area: headerbottom;
+  text-align: center; }
+
+.reveal .slides section.peerfeedback .grid-wrapper {
+  grid-template-areas: "gfx" "headerbottom";
+  grid-template-rows: 4fr 1fr;
+  grid-template-columns: 1fr; }
+
+.reveal .slides section.peerfeedback .gfx {
+  grid-area: gfx;
+  background-image: url("../../lib/media/peerfeedback.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.reveal .slides section.peerfeedback h2.headerbottom {
+  grid-area: headerbottom;
+  text-align: center; }
+
+.reveal .slides section.peergrade .grid-wrapper {
+  grid-template-rows: 2fr 2fr 1fr; }
+
+.reveal .slides section.peergrade h2 {
+  grid-area: header;
+  background-image: url("../../lib/media/peergrade.png");
+  background-position: top center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.reveal .slides section.peergrade .topleft {
+  background-image: url("../../lib/media/peerfeedback1.png"); }
+
+.reveal .slides section.peergrade .topcenter {
+  background-image: url("../../lib/media/peerfeedback2.png"); }
+
+.reveal .slides section.peergrade .topright {
+  background-image: url("../../lib/media/peerfeedback3.png"); }
+
+.reveal .slides section.assessmentcriteria .topleft {
+  background-image: url("../../lib/media/arrow.png"); }
+
+.reveal .slides section.assessmentcriteria .topcenter {
+  background-image: url("../../lib/media/comments.png"); }
+
+.reveal .slides section.assessmentcriteria .topright {
+  background-image: url("../../lib/media/generalfeedback.png"); }
+
+.reveal .slides section.receivefeedback .topleft {
+  background-image: url("../../lib/media/receivefeedback.png"); }
+
+.reveal .slides section.receivefeedback .topcenter {
+  background-image: url("../../lib/media/receivefeedback2.png"); }
+
+.reveal .slides section.receivefeedback .topright {
+  background-image: url("../../lib/media/receivefeedback3.png"); }
+
+.reveal .slides section.learning .element1 {
+  background-image: url("../../lib/media/FigLearning.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.reveal .slides section.thanks .grid-wrapper {
+  grid-template-areas: "." "header" "subtitle";
+  grid-template-rows: 1fr 2fr 1fr;
+  grid-template-columns: 1fr; }
+
+.reveal .slides section.thanks h2 {
+  grid-area: header;
+  justify-self: center;
+  align-self: stretch;
+  text-align: center;
+  align-item: center; }
+
+.reveal .slides section.thanks .subtitle {
+  grid-area: subtitle;
+  text-align: center; }
