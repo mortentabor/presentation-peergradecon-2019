@@ -322,7 +322,7 @@ html {
 	}
 
 	.timeseries {
-		background-image: url("/lib/media/timeseries.png");
+		background-image: url("lib/media/timeseries.png");
 		background-position: right bottom;
 	}	
 }
@@ -352,7 +352,7 @@ html {
 	}
 
 	.rideabike {
-		background-image: url("/lib/media/rideabike.png");
+		background-image: url("lib/media/rideabike.png");
 		background-position: left center;
 		padding-left: 4vmin;
 	}
@@ -361,29 +361,29 @@ html {
 .reveal .slides section.theloop {
 	
 	.topleft {
-		background-image: url("/lib/media/feedback_activity.png");
+		background-image: url("lib/media/feedback_activity.png");
 	}
 
 	.topcenter {
-		background-image: url("/lib/media/feedback_feedback.png");
+		background-image: url("lib/media/feedback_feedback.png");
 	}
 
 	.topright {
-		background-image: url("/lib/media/feedback_revise.png");
+		background-image: url("lib/media/feedback_revise.png");
 	}
 }
 
 .reveal .slides section.prepare {
 	.topleft {
-		background-image: url("/lib/media/video.png");
+		background-image: url("lib/media/video.png");
 	}
 
 	.topcenter {
-		background-image: url("/lib/media/reviewquiz.png");
+		background-image: url("lib/media/reviewquiz.png");
 	}
 	
 	.topright {
-		background-image: url("/lib/media/question.png");
+		background-image: url("lib/media/question.png");
 	}
 }
 
@@ -403,45 +403,45 @@ html {
 
 .reveal .slides section.lectures {
 	.topleft {
-		background-image: url("/lib/media/socrative.png");
+		background-image: url("lib/media/socrative.png");
 	}
 
 	.topcenter {
-		background-image: url("/lib/media/miniexercise.png");
+		background-image: url("lib/media/miniexercise.png");
 	}
 
 	.topright {
-		background-image: url("/lib/media/lecture.png");
+		background-image: url("lib/media/lecture.png");
 	}
 }
 
 
 .reveal .slides section.theoreticalexercises {
 	.topleft {
-		background-image: url("/lib/media/videoex.png");
+		background-image: url("lib/media/videoex.png");
 	}
 
 	.topcenter {
-		background-image: url("/lib/media/feedback.png");
+		background-image: url("lib/media/feedback.png");
 	}
 
 	.topright {
-		background-image: url("/lib/media/solution.png");
+		background-image: url("lib/media/solution.png");
 	}	
 }
 
 
 .reveal .slides section.empiricalexercises {
 	.topleft {
-		background-image: url("/lib/media/screencast.png");
+		background-image: url("lib/media/screencast.png");
 	}
 
 	.topcenter {
-		background-image: url("/lib/media/tutorial.png");
+		background-image: url("lib/media/tutorial.png");
 	}
 
 	.topright {
-		background-image: url("/lib/media/feedbackta.png");
+		background-image: url("lib/media/feedbackta.png");
 	}
 }
 
@@ -473,7 +473,7 @@ html {
 
 	.gfx {
 		grid-area: gfx;
-		background-image: url("/lib/media/assignments.png");
+		background-image: url("lib/media/assignments.png");
 		background-position: center center;
 		background-size: contain;
 		background-repeat: no-repeat;
@@ -500,7 +500,7 @@ html {
 
 	.gfx {
 		grid-area: gfx;
-		background-image: url("/lib/media/assignments2.png");
+		background-image: url("lib/media/assignments2.png");
 		background-position: center center;
 		background-size: contain;
 		background-repeat: no-repeat;
@@ -522,7 +522,7 @@ html {
 
 	.gfx {
 		grid-area: gfx;
-		background-image: url("/lib/media/peerfeedback.png");
+		background-image: url("lib/media/peerfeedback.png");
 		background-position: center center;
 		background-size: contain;
 		background-repeat: no-repeat;
@@ -542,57 +542,57 @@ html {
 
 	h2 {
 		grid-area: header;
-		background-image: url("/lib/media/peergrade.png");
+		background-image: url("lib/media/peergrade.png");
 		background-position: top center;
 		background-size: contain;
 		background-repeat: no-repeat;
 	}
 
 	.topleft {
-		background-image: url("/lib/media/peerfeedback1.png");
+		background-image: url("lib/media/peerfeedback1.png");
 	}
 
 	.topcenter {
-		background-image: url("/lib/media/peerfeedback2.png");
+		background-image: url("lib/media/peerfeedback2.png");
 	}
 
 	.topright {
-		background-image: url("/lib/media/peerfeedback3.png");
+		background-image: url("lib/media/peerfeedback3.png");
 	}
 }
 
 .reveal .slides section.assessmentcriteria {
 	.topleft {
-		background-image: url("/lib/media/arrow.png");
+		background-image: url("lib/media/arrow.png");
 	}
 
 	.topcenter {
-		background-image: url("/lib/media/comments.png");
+		background-image: url("lib/media/comments.png");
 	}
 
 	.topright {
-		background-image: url("/lib/media/generalfeedback.png");
+		background-image: url("lib/media/generalfeedback.png");
 	}
 }
 
 
 .reveal .slides section.receivefeedback {
 	.topleft {
-		background-image: url("/lib/media/receivefeedback.png");
+		background-image: url("lib/media/receivefeedback.png");
 	}
 
 	.topcenter {
-		background-image: url("/lib/media/receivefeedback2.png");
+		background-image: url("lib/media/receivefeedback2.png");
 	}
 
 	.topright {
-		background-image: url("/lib/media/receivefeedback3.png");
+		background-image: url("lib/media/receivefeedback3.png");
 	}
 }
 
 .reveal .slides section.learning {
 	.element1 {
-		background-image: url("/lib/media/FigLearning.png");
+		background-image: url("lib/media/FigLearning.png");
 		background-position: center center;
 		background-size: contain;
 		background-repeat: no-repeat;
